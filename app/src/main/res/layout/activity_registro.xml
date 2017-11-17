@@ -39,6 +39,7 @@
             android:visibility="gone"
             android:tag="documento"
             android:layout_marginTop="10dp"
+            android:maxLines="1"
             />
     </android.support.design.widget.TextInputLayout>
 
@@ -53,7 +54,8 @@
             android:layout_height="wrap_content"
             android:hint="Nombres"
             android:tag="nombres"
-            android:layout_marginTop="10dp"/>
+            android:layout_marginTop="10dp"
+            android:maxLines="1"/>
     </android.support.design.widget.TextInputLayout>
 
     <android.support.design.widget.TextInputLayout
@@ -67,6 +69,7 @@
             android:hint="Apellidos"
             android:tag="apellidos"
             android:layout_marginTop="10dp"
+            android:maxLines="1"
             />
     </android.support.design.widget.TextInputLayout>
 
@@ -82,6 +85,7 @@
             android:inputType="phone"
             android:tag="telefono"
             android:layout_marginTop="10dp"
+            android:maxLines="1"
             />
     </android.support.design.widget.TextInputLayout>
 
@@ -97,6 +101,7 @@
             android:visibility="gone"
             android:tag="direccion"
             android:layout_marginTop="10dp"
+            android:maxLines="1"
             />
     </android.support.design.widget.TextInputLayout>
 
@@ -111,6 +116,7 @@
             android:inputType="textEmailAddress"
             android:tag="email"
             android:layout_marginTop="10dp"
+            android:maxLines="1"
             />
     </android.support.design.widget.TextInputLayout>
 
@@ -125,6 +131,7 @@
             android:inputType="textPassword"
             android:tag="clave"
             android:layout_marginTop="10dp"
+            android:maxLines="1"
             />
     </android.support.design.widget.TextInputLayout>
 
@@ -138,6 +145,7 @@
             android:hint="Confirmar contraseña"
             android:inputType="textPassword"
             android:layout_marginTop="10dp"
+            android:maxLines="1"
             />
     </android.support.design.widget.TextInputLayout>
 
